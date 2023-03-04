@@ -10,32 +10,6 @@ body {
   font-family: Verdana, Tahoma, sans-serif;
 }
 
-.github-ribbon {
-  position: fixed;
-  width: 150px;
-  height: 150px;
-  overflow: hidden;
-  z-index: 99999;
-  left: 0px;
-  bottom: 0px;
-}
-
-.github-ribbon a {
-  display: inline-block;
-  width: 200px;
-  overflow: hidden;
-  padding: 6px 0px;
-  text-align: center;
-  transform: rotate(45deg);
-  text-decoration: none;
-  color: #eceff4;
-  position: inherit;
-  font-size: 13px;
-  background-color: #5e81ac;
-  bottom: 45px;
-  left: -40px;
-}
-
 h1 {
   font-size: 20px;
   margin-bottom: 30px;
