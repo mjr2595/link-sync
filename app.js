@@ -8,7 +8,7 @@ tippy(shareButtons, {
 
 // Tooltip for resume button
 tippy("#resume", {
-  content: "Resume 🤓",
+  content: "Check it out! 🤓",
   placement: "left",
 });
 

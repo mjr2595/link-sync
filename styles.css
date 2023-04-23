@@ -23,11 +23,15 @@ header {
   padding: 12px;
 }
 
-#main-share {
-  width: 40px;
+#resume {
+  margin: 8px;
+  width: 90px;
   height: 40px;
-  border-radius: 20px;
-  background-color: #434c5e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 17px;
+  background-color: #4c566a;
 }
 
 .container {
