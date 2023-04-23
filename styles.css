@@ -15,25 +15,6 @@ h1 {
   margin-bottom: 30px;
 }
 
-header {
-  width: 95%;
-  max-width: 788px;
-  display: flex;
-  justify-content: flex-end;
-  padding: 12px;
-}
-
-#resume {
-  margin: 8px;
-  width: 90px;
-  height: 40px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 17px;
-  background-color: #4c566a;
-}
-
 .container {
   width: 91%;
   max-width: 680px;
@@ -76,9 +57,9 @@ a {
 }
 
 .image-container {
-  height: 96px;
-  width: 96px;
-  border-radius: 48px;
+  height: 120px;
+  width: 120px;
+  border-radius: 20px;
   overflow: hidden;
 }
 

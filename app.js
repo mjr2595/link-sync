@@ -6,12 +6,6 @@ tippy(shareButtons, {
   content: "Copy link 🔗",
 });
 
-// Tooltip for resume button
-tippy("#resume", {
-  content: "Check it out! 🤓",
-  placement: "left",
-});
-
 // copy link to clipboard
 async function copyText(e) {
   //prevent button going to site
@@ -28,4 +22,10 @@ shareButtons.forEach((shareButton) => shareButton.addEventListener("click", copy
 tippy(shareButtons, {
   trigger: "click",
   content: "Copied! 🔥",
+  hideOnClick: false,
+  onShow(instance) {
+    setTimeout(() => {
+      instance.hide();
+    }, 2000);
+  },
 });
