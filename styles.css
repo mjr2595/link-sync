@@ -1,8 +1,15 @@
+:root {
+  --bg-primary: #181818;
+  --bg-secondary: #333333;
+  --bg-button: rgba(24, 24, 24, 0.7);
+  --text-primary: #efefef;
+}
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #2e3440;
-  color: #eceff4;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -28,12 +35,12 @@ h1 {
 
 a {
   text-decoration: none;
-  color: #eceff4;
+  color: var(--text-primary);
 }
 
 .tile {
   width: 100%;
-  background-color: #434c5e;
+  background-color: var(--bg-secondary);
   margin: 7px;
   border-radius: 17px;
   display: flex;
@@ -53,18 +60,21 @@ a {
   justify-content: center;
   align-items: center;
   border-radius: 20px;
-  background-color: #4c566a;
+  background-color: var(--bg-button);
 }
 
 .image-container {
-  height: 120px;
-  width: 120px;
-  border-radius: 20px;
-  overflow: hidden;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
 }
 
 .image-container img {
-  height: 100%;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 25%;
 }
 
 .icon {
