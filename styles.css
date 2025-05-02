@@ -38,6 +38,10 @@ a {
   color: var(--text-primary);
 }
 
+p {
+  margin: auto;
+}
+
 .tile {
   width: 100%;
   background-color: var(--bg-secondary);
