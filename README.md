@@ -4,6 +4,6 @@ This is pretty much a copy of LinkTree but super simple and without any analytic
 
 ### [Check it out!](https://mjr2595.github.io/link-sync)
 
-![screenshot](https://i.imgur.com/sEvndG9.png)
+![screenshot](https://i.imgur.com/XMhEweo.png)
 
 <br/>
