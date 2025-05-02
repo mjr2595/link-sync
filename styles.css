@@ -14,7 +14,7 @@ body {
   align-items: center;
   flex-direction: column;
   width: 100vw;
-  font-family: Verdana, Tahoma, sans-serif;
+  font-family: "iA Writer Mono", monospace;
 }
 
 h1 {
