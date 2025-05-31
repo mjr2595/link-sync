@@ -17,7 +17,9 @@ async function copyText(e) {
     console.error(err);
   }
 }
-shareButtons.forEach((shareButton) => shareButton.addEventListener("click", copyText));
+shareButtons.forEach((shareButton) =>
+  shareButton.addEventListener("click", copyText)
+);
 
 tippy(shareButtons, {
   trigger: "click",
